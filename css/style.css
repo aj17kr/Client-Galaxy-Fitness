@@ -1,0 +1,252 @@
+/*body{font-family: comfortaa;}*/
+h1,h2,h3,h4,h5,h6{font-family:  Montserrat;letter-spacing: 0.1em}
+p{font-family:  lato;letter-spacing: 0.01em;word-spacing: 0.09em;color:;}
+ .col-padding-top{padding-top: 50px}
+.arrow-underline{background: url(../images/h1-bg.png) no-repeat center bottom;padding-bottom: 25px}
+body,html{padding:0;margin:0; }
+/* =================NAVBAR================ */
+.navbar{
+  background: #222 !important;
+  /* background: rgba(64, 64, 64, 0.8) !important; */
+  filter:opacity(75%);
+  /*
+	-webkit-filter:opacity(0.7);
+	-moz-filter:opacity(0.7);*/
+      border-radius: 0;
+      margin-bottom: 0;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      border-color: transparent;
+    }
+    
+    /* .bg-dark{background: transparent !important}
+    .navbar-brand,.navbar-nav li a{color:black !important} */
+
+.navbar-brand {font-family: 'Montserrat';
+    /* border: 2px solid white; */
+    display: inline-block;
+    /* padding: 8px;*/} 
+.navbar-nav li a:hover{background-color:rgb(8,8,8) }
+.navbar-nav .active{background-color:rgba(229,57,53,0.7)}
+.navbar-nav li a,.navbar-brand{color:white !important;font-weight: 600;letter-spacing:0.1em}
+.navbar-nav li a {transition: 0.4s background-color ease}
+.navbar-toggle{border: none}
+
+@media (min-width: 768px){
+.navbar-expand-md .navbar-collapse{
+	justify-content: center;
+}
+}
+
+
+
+/* ======Quote========== */
+section#quote{background:#2ecc71;color:white;}
+section#quote .container{padding: 25px}
+/* ======/Quote========== */
+
+
+
+/* ==================SECTION HOME======================= */
+section#home{background:url('../images/wall.jpg');
+  /*
+  ../images/Gym-Wallpaper-1.jpg
+  ../images/wall.jpg
+  ../images/body_building_fitness_muscle_muscles_weight_lifting_Bodybuilding__6__1920x1012.jpg
+  http://ganharmassamuscular.net/wp-content/uploads/2016/09/background.gif
+  http://cdn28.us1.fansshare.com/photograph/workoutwallpapers/fitness-wallpapers-wide-wallpaper-wallpaper-1997022479.jpg
+  (with bg position not center)
+  https://cloud.lovindublin.com/images/uploads/2016/01/fitness.jpg?mtime=20160128072019
+  >http://repitstrength.com/wp-content/uploads/2015/10/male-and-female-muscled-torsos-posing-on-a-black-background-e1462082854682.jpg
+  (puchna pdega dalni hai ya nhi)
+  >https://experienceluxury.co/wp-content/uploads/2016/12/workout-1200x800.jpg
+  >https://cdn.raseef22.com/wp-content/uploads/sites/2/2016/11/MAIN_BodyBuildingWomen.jpg
+  (lady only)
+  */
+background-position:center  ;
+background-size: cover;
+/* -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover; */
+background-repeat: no-repeat;
+background-attachment: fixed;
+/* -webkit-background-attachment: fixed;
+-moz-background-attachment: fixed;
+-o-background-attachment: fixed; */
+color:white;
+height: 100vh;
+background-color: black
+}
+
+/*section#home .home-heading h2{font-family: 'Bungee';
+    border: 2px solid white;
+    display: inline-block;
+    padding: 5px;}
+*/
+
+section#home .container{padding:150px 25px;position: relative;top: 50%;transform: translateY(-50%);}
+section#home h2{color:#fff;font-weight:600;font-size: 34px;}
+section#home h1{display: inline-block;font-size: 100px;color: #E53935;font-weight: 800;background:rgba(0,0,0,0.5)}
+section#home h3{font-size: 20px;font-weight: 600}
+
+@media only screen and (max-width:576px){
+section#home h2{font-size: 28px;}
+section#home h1{font-size: 75px}
+section#home h3{font-size: 16px}
+}
+
+@media only screen and (max-width:370px){
+section#home h2{font-size: 22px;}
+section#home h1{font-size: 60px}
+section#home h3{font-size: 15px}
+}
+
+/* =====================SECTION PLANS================== */
+section#plans{backgdround:url('');
+background-position:center right  ;
+background-size: cover;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+-webkit-background-attachment: fixed;
+-moz-background-attachment: fixed;
+-o-background-attachment: fixed;}
+section#plans .container{padding: 80px 25px}
+
+section#plans.card{border:1px solid}
+.card-1{border-color: #3498db;}	
+.card-2{border-color: #2ecc71;}
+.card-3{border-color: #f1c40f}
+.card-4{border-color: #e74c3c}
+
+.card:hover{box-shadow: 5px 0px 40px rgba(0,0,0, .3)}
+
+section#plans	.card-header{
+		color:#fff !important;
+		border-radius: 0px;}
+.card-1 .card-header,.card-1 .card-footer{background-color:#3498db !important}
+.card-2 .card-header,.card-2 .card-footer{background-color:#2ecc71 !important;}
+.card-3 .card-header,.card-3 .card-footer{background-color:#f1c40f !important;}
+.card-4 .card-header,.card-4 .card-footer{background-color:#e74c3c !important;}
+.card .card-footer p{margin-bottom: 0}
+
+	.card-1 i{color:#3498db !important;}
+	.card-2 i{color:#2ecc71 !important;}
+	.card-3 i{color:#f1c40f !important;}
+	.card-4 i{color:#e74c3c !important;}
+
+
+	section#plans .card-footer{
+		color:white;
+		}
+
+	section#plans.card-footer h3 {font-size: 28px;}
+
+
+
+
+/* ================Trainers=========== */
+section#trainers .container{padding: 80px 25px}
+
+.row.no-gutter {
+  margin-left: 0;
+  margin-right: 0;
+}
+.row.no-gutter [class*='col-']:not(:first-child),
+.row.no-gutter [class*='col-']:not(:last-child) {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+#trainers .profile-pic img{box-shadow: 5px 0px 40px rgba(0,0,0, .7)}
+.profile-container{margin-top: 10px;color:#9d9d9d}
+/* ================/Trainers=========== */
+
+
+/* ================Testimonails=========== */
+section#testimonial .container{padding: 80px 25px}
+#testimonial{background:url('../images/testimonial.jpg');
+  /* Image Credits-http://windowreplacement.com */
+  background-position:center right  ;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-attachment: fixed;
+  -moz-background-attachment: fixed;
+  -o-background-attachment: fixed;}
+  #testimonial h2{color:#fff}
+
+section#testimonial .card-5{border-color:#3498db}
+section#testimonial .card-6{border-color:#e74c3c}
+
+section#testimonial .card .card-header{height: 100px;position: relative; }
+section#testimonial .card-5 .card-header{background-color:#3498db }
+section#testimonial .card-6 .card-header{background-color:#e74c3c }
+
+section#testimonial .card .card-header .card-pic{position: relative;top:30px}
+
+section#testimonial .card .card-header .card-pic img{border: 5px solid white;transition: 0.4s border ease}
+section#testimonial .card-5 .card-header .card-pic img:hover{border: 5px solid #3498db}
+section#testimonial .card-6 .card-header .card-pic img:hover{border: 5px solid #e74c3c}
+
+section#testimonial .card .card-body{padding-bottom: 0px}
+section#testimonial .card .card-body .card-detail{padding-top: 40px}
+
+section#testimonial .card-5 .card-body .card-detail .fa{color:#3498db }
+section#testimonial .card-6 .card-body .card-detail .fa{color:#e74c3c }
+
+section#testimonial .card .card-body .card-detail .fa-quote-left{font-size: 25px}
+/* ================/Testimonails=========== */
+
+
+/* ================ Pictures =========== */ 
+#pictures .container-fluid{padding: 80px 0px}
+#pictures img{opacity: 1;transition: 0.4s opacity ease}
+#pictures img:hover{opacity: 0.7}
+.img-padding{padding-top: 5px;padding-bottom:5px;}
+/* ================ /Pictures =========== */ 
+
+
+/* ================ Contact =========== */ 
+
+#contact i{font-size: 30px;transition: 0.2s all ease;}
+#contact .col-md-6 .fa:hover{font-size:45px;}
+
+#contact .container{padding: 80px 25px}
+#contact .detail-container h5,.timing-container h5{color:#3dc9b3;}
+#contact .detail-container p,.timing-container p{color:#9d9d9d;font-weight: bold}
+
+#contact .detail-container{background-color: #fff;;padding-top:50px;padding-bottom: 20px }
+#contact .timing-container{background-color: #fff;;padding-top:28px;padding-bottom: 10px }
+
+#contact .detail-container:hover,#contact .timing-container:hover{border-bottom: 3px solid #3dc9b3;}
+
+#contact .detail-container h5 span,.timing-container h5 span{display: block;padding-top: 10px; }
+#contact .detail-container h5 span::after,.timing-container h5 span::after{content: " ";
+    border: solid 2px #3dc9b3;
+    display: block;
+    width: 35px;
+    margin: 18px auto;}
+
+ #contact .timing-container div{display:inline-block;}
+
+/* ================ /Contact =========== */ 
+
+
+/* ================ Footer =========== */ 
+footer{background-color: #242830;color:white}
+footer .social-icons .fa{font-size: 30px;margin:20px;}
+footer  a{color:white !important;opacity: 0.8;text-decoration: none !important}
+footer  a:hover{opacity: 1}
+footer p{margin-bottom: 0;padding-bottom: 10px;font-size: 17px;color:#9d9d9d}
+
+footer .madeBy a{color:white;text-decoration: none;}
+footer .madeBy:hover{}
+
+footer p {font-size: 16px}
+/* ================ /Footer =========== */ 
+
