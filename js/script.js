@@ -64,4 +64,46 @@ $(document).ready(function(){
     } // End if
   });
 })
+
+
+// =====Animation on Page Scroll===== //
+$(window).scroll(function() {
+
+  $(".slideanim-left").each(function(){
+    var pos = $(this).offset().top;
+
+    var winTop = $(window).scrollTop();
+    if (pos < winTop + 500) {
+      $(this).addClass("animated slideInRight");
+    }
+  });
+
+  $(".slideanim-right").each(function(){
+    var pos = $(this).offset().top;
+
+    var winTop = $(window).scrollTop();
+    if (pos < winTop + 500) {
+      $(this).addClass("animated slideInLeft");
+    }
+  });
+$(".slideanim-up").each(function(){
+    var pos = $(this).offset().top;
+
+    var winTop = $(window).scrollTop();
+    if (pos < winTop + 500) {
+      $(this).addClass("animated slideInUp");
+    }
+  });
+$(".slideanim-down").each(function(){
+    var pos = $(this).offset().top;
+
+    var winTop = $(window).scrollTop();
+    if (pos < winTop + 500) {
+      $(this).addClass("animated slideInDown");
+    }
+  });
+
+});
+
+
 		
