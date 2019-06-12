@@ -198,7 +198,11 @@ section#testimonial .card .card-body .card-detail .fa-quote-left{font-size: 25px
  #contact .timing-container div{display:inline-block;}
 
 /* ================ /Contact =========== */ 
-
+  
+/* ================ Maps =========== */
+#maps{background-color: #EDF0F4;text-align: center;}
+#maps h3{padding-bottom:15px;padding-top: 15px}
+/* ================ /Maps =========== */
 
 /* ================ Footer =========== */ 
 footer{background-color: #242830;color:white}
